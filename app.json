@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/index",
+    "pages/goods_list/index",
+    "pages/goods_detail/index",
+    "pages/cart/index",
+    "pages/collect/index",
+    "pages/order/index", 
+    "pages/search/index",
+    "pages/user/index",
+    "pages/feedback/index",
+    "pages/login/index",
+    "pages/auth/index"
+  ],
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#FF2D4A",
+    "backgroundColor": "#FAFAFA",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icons/index.png",
+      "selectedIconPath": "icons/index_sel.png"
+      },
+      {
+          "pagePath": "pages/category/index",
+          "text": "分类",
+          "iconPath": "icons/circle.png",
+          "selectedIconPath": "icons/circle_sel.png"
+      },
+      {
+          "pagePath": "pages/cart/index",
+          "text": "购物车",
+          "iconPath": "icons/cost.png",
+          "selectedIconPath": "icons/cost_sel.png"
+      },
+      {
+          "pagePath": "pages/user/index",
+          "text": "我的",
+          "iconPath": "icons/mine.png",
+          "selectedIconPath": "icons/mine_sel.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eb4450",
+    "navigationBarTitleText": "优购",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
